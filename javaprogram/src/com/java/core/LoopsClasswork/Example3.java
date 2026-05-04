@@ -1,0 +1,17 @@
+package com.java.core.LoopsClasswork;
+
+import java.util.Scanner;
+
+public class Example3 {
+            public static void main(String[] args) {
+				Scanner sc=new Scanner(System.in);
+				
+				while(true) {
+					System.out.println("please enter a name:");
+					String name=sc.next();
+					System.out.println("entered name is:"+name);
+			}
+	
+     }
+
+}
